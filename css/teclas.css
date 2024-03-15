@@ -1,0 +1,33 @@
+.teclado{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+.gris{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    background-color: lightgray;
+    border: 0.1rem solid black;
+    cursor: pointer;
+}
+.cero{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.naranja{
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    background-color: darkorange;
+    border: 0.1rem solid black;
+}

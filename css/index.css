@@ -1,0 +1,10 @@
+.root{
+    width: 40rem;
+    height: 55rem;
+    margin: auto;
+    margin-top: 3rem;
+    display: grid;
+    border: 1px solid black;
+    grid-template-rows: 35% 1fr;
+
+}
